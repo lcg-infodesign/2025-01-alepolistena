@@ -1,0 +1,36 @@
+/* Stile base per il body e l'HTML */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center; /* Centra il contenuto principale */
+}
+
+/* Stile per l'intestazione */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Stile per il contenitore dello sketch p5.js */
+#sketch-container {
+    /* Centra il canvas nella pagina */
+    display: flex;
+    justify-content: center;
+}
+
+/* Stile per la tela (canvas) creata da p5.js */
+canvas {
+    /* Aggiunge un leggero bordo per staccare il canvas dallo sfondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    display: block;
+}
